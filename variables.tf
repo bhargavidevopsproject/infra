@@ -1,3 +1,8 @@
+variable "region" {
+  type = string
+  default = "eu-west-2"
+}
+
 variable "vpc_cidr_block" {
   type    = string
   default = "10.10.0.0/25"
@@ -42,6 +47,13 @@ variable "private_subnet_cidr_block_c" {
 variable "instance_count" {
   type    = number
   default = 1
+}
+
+
+
+variable "instance_type" {
+  type    = string
+  default = "t2.micro"
 }
 
 

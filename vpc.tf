@@ -2,7 +2,7 @@ module "myvpc_calling_module" {
   //LOCAL REPO
   //source = "../terraform-modules/vpc/module"
   
-  source = "git@github.com:bhargavidevopsproject/terraform-modules.git//subnet/module"
+  source = "git@github.com:bhargavidevopsproject/terraform-modules.git//vpc/module?ref=main"
 
   //GIT REPO
   //source ="git@github.com:"
